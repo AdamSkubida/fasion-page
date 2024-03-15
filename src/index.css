@@ -1,3 +1,9 @@
+* {
+  font-family: "Truculenta";
+  margin: 0 auto;
+  padding: 0;
+}
+
 a {
   color: inherit;
   text-decoration: inherit;

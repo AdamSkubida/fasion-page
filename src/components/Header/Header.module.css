@@ -1,7 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+}
+
 .logo {
-  font-size: 40px;
-  font-family: "Truculenta";
-  font-weight: 400;
-  padding: 10px;
-  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+  font-size: 25px;
+}
+
+.list-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.list-item::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: rgb(0, 0, 0);
+  transition: width 0.2s;
+}
+
+.list-item:hover::after {
+  width: 100%;
 }
