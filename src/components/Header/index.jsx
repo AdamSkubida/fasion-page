@@ -1,4 +1,5 @@
 import css from "./Header.module.css";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export const Header = ({ onClick }) => {
   return (
@@ -17,8 +18,8 @@ export const Header = ({ onClick }) => {
             </li>
           </ul>
         </nav>
-        <button className={css.open} onClick={() => onClick()}>
-          open
+        <button className={css["open-button"]} onClick={() => onClick()}>
+          <RxHamburgerMenu className={css.burger} />
         </button>
       </div>
     </>

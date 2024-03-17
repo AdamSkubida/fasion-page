@@ -13,6 +13,7 @@
 .logo {
   font-size: 50px;
   font-weight: 700;
+  margin: 0;
 }
 
 .list {
@@ -48,8 +49,22 @@
   width: 100%;
 }
 
-@media (min-width: 450px) {
-  .open {
+.open-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 0;
+  background-color: inherit;
+  padding-top: 5px;
+}
+
+@media (min-width: 451px) {
+  .open-button {
     display: none;
   }
+}
+
+.burger {
+  height: 25px;
+  width: 25px;
 }
