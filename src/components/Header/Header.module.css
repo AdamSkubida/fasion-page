@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   justify-content: space-around;
   align-items: center;
@@ -19,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
-  list-style: none;
   font-size: 25px;
 }
 
@@ -47,4 +46,10 @@
 
 .list-item:hover::after {
   width: 100%;
+}
+
+@media (min-width: 450px) {
+  .open {
+    display: none;
+  }
 }

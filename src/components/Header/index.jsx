@@ -1,6 +1,6 @@
 import css from "./Header.module.css";
 
-export const Header = () => {
+export const Header = ({ onClick }) => {
   return (
     <>
       <div className={css.container}>
@@ -17,6 +17,9 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
+        <button className={css.open} onClick={() => onClick()}>
+          open
+        </button>
       </div>
     </>
   );

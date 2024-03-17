@@ -8,3 +8,12 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
