@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans Lisu", sans-serif;
+  background-color: #ffeee2;
+  padding: 30px;
+  margin-top: 90px;
+  gap: 50px;
+}
+
+.social {
+  display: flex;
+  padding-top: 4px;
+  gap: 30px;
+}
