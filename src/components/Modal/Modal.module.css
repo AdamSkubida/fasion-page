@@ -8,6 +8,7 @@
   justify-content: center;
   background-color: rgba(255, 255, 255);
   font-family: "Noto Sans Lisu", sans-serif;
+  z-index: 9999;
 }
 
 @media (min-width: 451px) {
