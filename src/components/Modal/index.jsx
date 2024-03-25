@@ -1,5 +1,6 @@
 import css from "./Modal.module.css";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export const Modal = ({ onClose }) => {
   return (
@@ -11,10 +12,10 @@ export const Modal = ({ onClose }) => {
         <div className={css["modal-content"]}>
           <ul className={css.list}>
             <li className={css["list-item"]}>
-              <a href="">Home</a>
+              <Link to="/fasion-page/">Home</Link>
             </li>
             <li className={css["list-item"]}>
-              <a href="">Me</a>
+              <Link to="/fasion-page/Me">Me</Link>
             </li>
           </ul>
         </div>

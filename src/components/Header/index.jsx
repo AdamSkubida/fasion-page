@@ -1,20 +1,21 @@
 import css from "./Header.module.css";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 export const Header = ({ onClick }) => {
   return (
     <>
       <div className={css.container}>
         <div className={css.logo}>
-          <a href="https://adamskubida.github.io/fasion-page/">SiWear</a>
+          <Link to="/fasion-page/">SiWear</Link>
         </div>
         <nav className={css.nav}>
           <ul className={css.list}>
             <li className={css["list-item"]}>
-              <a href="https://adamskubida.github.io/fasion-page/">Home</a>
+              <Link to="/fasion-page/">Home</Link>
             </li>
             <li className={css["list-item"]}>
-              <a href="">Me</a>
+              <a href="/fasion-page/Me">Me</a>
             </li>
           </ul>
         </nav>

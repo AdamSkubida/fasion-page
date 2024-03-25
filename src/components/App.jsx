@@ -1,26 +1,14 @@
-import { useState } from "react";
-import { Header } from "./Header/index.jsx";
-import { Modal } from "./Modal/index.jsx";
-import { Main } from "./Main/index.jsx";
-import { Footer } from "./Footer/index.jsx";
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home.jsx";
+import Me from "./Me.jsx";
 
 const App = () => {
-  const [modalOpen, setModalOpen] = useState(true);
-
-  const openModalHandler = () => {
-    setModalOpen(true);
-  };
-
-  const closeModalHandle = () => {
-    setModalOpen(false);
-  };
-
   return (
     <>
-      <Header onClick={openModalHandler} />
-      {modalOpen && <Modal onClose={closeModalHandle} />}
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path="/fasion-page/" element={<Home />} />
+        <Route path="/fasion-page/Me" element={<Me />} />
+      </Routes>
     </>
   );
 };
