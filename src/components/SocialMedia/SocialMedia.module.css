@@ -1,0 +1,26 @@
+.wrapper {
+  margin-top: 90px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-wrapper {
+  border: 2px solid rgba(88, 84, 84, 0.5);
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover,
+.icon-wrapper:focus {
+  background-color: aqua;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}

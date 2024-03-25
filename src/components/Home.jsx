@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Header } from "./Header";
-import { Main } from "./Main";
+import { Gallery } from "./Gallery";
 import { Footer } from "./Footer";
 import { Modal } from "./Modal";
+import { SocialMedia } from "./SocialMedia";
 
 const Home = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -19,7 +20,8 @@ const Home = () => {
     <>
       <Header onClick={openModalHandler} />
       {modalOpen && <Modal onClose={closeModalHandle} />}
-      <Main />
+      <SocialMedia />
+      <Gallery />
       <Footer />
     </>
   );

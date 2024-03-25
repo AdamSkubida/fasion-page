@@ -1,4 +1,4 @@
-import css from "./Main.module.css";
+import css from "./Gallery.module.css";
 import img1 from "/elegant-shoes640.jpg";
 import img2 from "/shoes640.jpg";
 import img3 from "/nike640.jpg";
@@ -6,7 +6,7 @@ import img4 from "/jumper640.jpg";
 import img5 from "/dress640.jpg";
 import img6 from "/jeans640.jpg";
 
-export const Main = () => {
+export const Gallery = () => {
   return (
     <>
       <div className={css.gallery}>
