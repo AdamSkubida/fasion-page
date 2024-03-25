@@ -12,10 +12,10 @@ export const Modal = ({ onClose }) => {
         <div className={css["modal-content"]}>
           <ul className={css.list}>
             <li className={css["list-item"]}>
-              <Link to="/fasion-page/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className={css["list-item"]}>
-              <Link to="/fasion-page/Me">Me</Link>
+              <Link to="/Me">Me</Link>
             </li>
           </ul>
         </div>

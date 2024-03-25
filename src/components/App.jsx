@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/fasion-page/" element={<Home />} />
-        <Route path="/fasion-page/Me" element={<Me />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Me" element={<Me />} />
       </Routes>
     </>
   );

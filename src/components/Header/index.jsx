@@ -7,15 +7,15 @@ export const Header = ({ onClick }) => {
     <>
       <div className={css.container}>
         <div className={css.logo}>
-          <Link to="/fasion-page/">SiWear</Link>
+          <Link to="/">SiWear</Link>
         </div>
         <nav className={css.nav}>
           <ul className={css.list}>
             <li className={css["list-item"]}>
-              <Link to="/fasion-page/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className={css["list-item"]}>
-              <a href="/fasion-page/Me">Me</a>
+              <Link to="/Me">Me</Link>
             </li>
           </ul>
         </nav>
