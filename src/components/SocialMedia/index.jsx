@@ -20,20 +20,24 @@ export const SocialMedia = () => {
             <SlSocialInstagram className={css.icon} />
           </div>
         </Link>
-        <div
-          className={`${css.box} ${isHovered === 2 && css.fb}`}
-          onMouseEnter={() => setIsHovered(2)}
-          onMouseLeave={() => setIsHovered(null)}
-        >
-          <SlSocialFacebook className={css.icon} />
-        </div>
-        <div
-          className={`${css.box} ${isHovered === 3 && css.mail}`}
-          onMouseEnter={() => setIsHovered(3)}
-          onMouseLeave={() => setIsHovered(null)}
-        >
-          <MdMailOutline className={css.icon} />
-        </div>
+        <Link to="https://www.facebook.com/">
+          <div
+            className={`${css.box} ${isHovered === 2 && css.fb}`}
+            onMouseEnter={() => setIsHovered(2)}
+            onMouseLeave={() => setIsHovered(null)}
+          >
+            <SlSocialFacebook className={css.icon} />
+          </div>
+        </Link>
+        <Link to="mailto:siwear@gmail.com">
+          <div
+            className={`${css.box} ${isHovered === 3 && css.mail}`}
+            onMouseEnter={() => setIsHovered(3)}
+            onMouseLeave={() => setIsHovered(null)}
+          >
+            <MdMailOutline className={css.icon} />
+          </div>
+        </Link>
       </div>
     </div>
   );
