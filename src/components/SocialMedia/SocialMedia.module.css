@@ -1,5 +1,7 @@
 .wrapper {
-  margin-top: 90px;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 60px;
 }
 
 .social {
@@ -8,16 +10,40 @@
   align-items: center;
 }
 
-.icon-wrapper {
+.box {
   border: 2px solid rgba(88, 84, 84, 0.5);
   border-radius: 5px;
   padding: 30px;
   cursor: pointer;
+  transition: background-image 0.25s, color 0.25s, box-shadow 0.25s;
 }
 
-.icon-wrapper:hover,
-.icon-wrapper:focus {
-  background-color: aqua;
+.ig {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-color: white;
+}
+
+.fb {
+  background-color: #4267b2;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-color: white;
+}
+
+.mail {
+  background-color: #c71610;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+  color: white;
+  border-color: white;
 }
 
 .icon {
