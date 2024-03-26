@@ -60,7 +60,7 @@
   transition: font-weight 0.25s;
 }
 
-.list-item:hover .open-button {
+.open-button {
   width: 50px;
   height: 50px;
   border: none;
