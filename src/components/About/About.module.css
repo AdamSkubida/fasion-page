@@ -1,0 +1,40 @@
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 90px 50px 0 50px;
+}
+
+.dsc {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 500px;
+}
+
+.portrait {
+  border-radius: 100%;
+  max-width: 300px;
+  animation: rotate 1s ease-in-out;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 90deg;
+    opacity: 0.01;
+  }
+
+  50% {
+    rotate: -50deg;
+  }
+
+  /* 70% {
+    rotate: 30deg;
+  } */
+
+  100% {
+    rotate: 0deg;
+    opacity: 1;
+  }
+}
