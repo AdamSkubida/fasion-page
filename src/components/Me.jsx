@@ -1,4 +1,5 @@
 import { Footer } from "./Footer";
+import { SocialMedia } from "./SocialMedia";
 import { Header } from "./Header";
 import { Modal } from "./Modal";
 import { About } from "./About";
@@ -17,6 +18,7 @@ const Me = () => {
   return (
     <>
       <Header onClick={openModalHandler} />
+      <SocialMedia />
       <About />
       {modalOpen && <Modal onClose={closeModalHandle} />}
       <Footer />

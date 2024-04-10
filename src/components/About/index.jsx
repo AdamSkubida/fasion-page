@@ -8,10 +8,11 @@ export const About = () => {
         <img src={portrait} alt="my portrait" className={css.portrait} />
       </div>
       <div className={css.dsc}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt ut
-        dolorem reprehenderit aliquam neque, sit officiis tenetur! Recusandae
-        ullam accusantium, repellendus et quam perferendis soluta aperiam
-        voluptates, vitae quo voluptatem.
+        Mam na imię <b>Sylwia</b>, i modę kocham z całego serca. To dla mnie
+        więcej niż <b>ubrania</b> - to sposób wyrażania siebie i spełniania{" "}
+        <b>pasji</b>. Staram się tworzyć coś wyjątkowego, zawsze w poszukiwaniu
+        nowych inspiracji i trendów. Dla mnie
+        <b> moda</b> to historia, osobowość i sposób wyrażania samej siebie.
       </div>
     </div>
   );

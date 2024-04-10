@@ -1,10 +1,9 @@
 import css from "./Gallery.module.css";
-import img1 from "/elegant-shoes640.jpg";
-import img2 from "/shoes640.jpg";
-import img3 from "/nike640.jpg";
-import img4 from "/jumper640.jpg";
-import img5 from "/dress640.jpg";
-import img6 from "/jeans640.jpg";
+import img1 from "/marynarka640.jpeg";
+import img2 from "/highheel640.jpeg";
+import img3 from "/nike640.jpeg";
+import img4 from "/jumper640.jpeg";
+import img5 from "/glans640.jpeg";
 
 export const Gallery = () => {
   return (
@@ -25,10 +24,6 @@ export const Gallery = () => {
         <div className={css["img-wrapper"]}>
           <img src={img3} alt="nike" />
           <p className={css.price}>250$</p>
-        </div>
-        <div className={css["img-wrapper"]}>
-          <img src={img6} alt="jeans" />
-          <p className={css.price}>120$</p>
         </div>
         <div className={css["img-wrapper"]}>
           <img src={img4} alt="jumper" />
