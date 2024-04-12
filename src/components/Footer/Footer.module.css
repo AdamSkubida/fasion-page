@@ -7,11 +7,47 @@
   padding: 30px;
   height: 100px;
   margin-top: 90px;
-  gap: 50px;
+  gap: 100px;
+}
+
+@media (max-width: 467px) {
+  .footer {
+    flex-direction: column;
+    gap: 17px;
+  }
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+@media (min-width: 1200px) {
+  .contact-wrapper {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 
 .social {
   display: flex;
   padding-top: 4px;
   gap: 30px;
+}
+
+.phone {
+  font-family: "Noto Sans Lisu", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-left: 1px solid black;
+  padding-left: 15px;
+}
+
+@media (max-width: 1199px) {
+  .phone {
+    border: none;
+    padding-left: 0;
+  }
 }
