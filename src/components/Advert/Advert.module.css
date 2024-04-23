@@ -31,6 +31,15 @@
 }
 
 .close {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  transform: rotate(0deg);
+}
+
+.close:hover,
+.close:focus {
+  transition: transform 250ms ease-in-out;
+  transform: rotate(30deg);
 }

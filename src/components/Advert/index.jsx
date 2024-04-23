@@ -2,11 +2,11 @@ import css from "./Advert.module.css";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 
-export const Advert = () => {
+export const Advert = ({ onClose }) => {
   return (
     <div className={css.overlay}>
       <div className={css.modal}>
-        <button className={css["close-button"]}>
+        <button className={css["close-button"]} onClick={() => onClose()}>
           <IoMdClose className={css.close} />
         </button>
         <div className={css["modal-content"]}>

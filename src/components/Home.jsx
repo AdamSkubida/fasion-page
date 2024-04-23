@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Header } from "./Header";
 import { Gallery } from "./Gallery";
 import { Footer } from "./Footer";
@@ -8,6 +8,7 @@ import { Advert } from "./Advert";
 
 const Home = () => {
   const [modalOpen, setModalOpen] = useState(false);
+  const [adOpen, setAdOpen] = useState(false);
 
   const openModalHandler = () => {
     setModalOpen(true);
@@ -17,12 +18,24 @@ const Home = () => {
     setModalOpen(false);
   };
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setAdOpen(true);
+    }, 7000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const closeAdHandler = () => {
+    setAdOpen(false);
+  };
+
   return (
     <>
       <Header onClick={openModalHandler} />
       {modalOpen && <Modal onClose={closeModalHandle} />}
       <SocialMedia />
-      <Advert />
+      {adOpen && <Advert onClose={closeAdHandler} />}
       <Gallery />
       <Footer />
     </>
