@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Noto Sans Lisu", sans-serif;
-  background-color: #ffeee2;
+  font-family: "Lexend", sans-serif;
+  background-color: #184d47;
+  color: white;
   padding: 30px;
   height: 100px;
   margin-top: 90px;

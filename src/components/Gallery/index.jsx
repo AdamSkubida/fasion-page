@@ -12,7 +12,7 @@ import {
 } from "react-scroll-motion";
 import css from "./Gallery.module.css";
 
-const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+// const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 
 export const Gallery = () => {
@@ -20,24 +20,30 @@ export const Gallery = () => {
     <>
       <div className={css.hero}>
         <ScrollContainer>
-          <ScrollPage>
+          <ScrollPage className={css["scroll-page"]}>
             <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-              <span style={{ fontSize: "30px" }}>
-                Let me show you scroll animation 😀
+              <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
+                Anonimowe rozmowy na każdy temat – dostępne 24/7. Rozmawiaj bez
+                presji, bez oceniania 😀
               </span>
             </Animator>
           </ScrollPage>
-          <ScrollPage>
-            <Animator animation={ZoomInScrollOut}>
-              <span style={{ fontSize: "40px" }}>I'm FadeUpScrollOut ✨</span>
-            </Animator>
-          </ScrollPage>
-          <ScrollPage>
+          <ScrollPage className={css["scroll-page"]}>
             <Animator animation={FadeUp}>
-              <span style={{ fontSize: "40px" }}>I'm FadeUp ⛅️</span>
+              <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
+                Zły humor? Chcesz pogadać? Zadzwoń do nas – po prostu ✨
+              </span>
             </Animator>
           </ScrollPage>
-          <ScrollPage>
+          <ScrollPage className={css["scroll-page"]}>
+            <Animator animation={FadeUp}>
+              <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
+                Naszą misją jest wspierać ludzi w codziennych trudnościach i
+                dawać im możliwość wygadania się anonimowo ⛅️
+              </span>
+            </Animator>
+          </ScrollPage>
+          <ScrollPage className={css["scroll-page"]}>
             <div
               style={{
                 display: "flex",
@@ -46,14 +52,11 @@ export const Gallery = () => {
                 height: "100%",
               }}
             >
-              <span style={{ fontSize: "40px" }}>
-                <Animator animation={MoveIn(-10, 0)}>Hello Guys 👋🏻</Animator>
-                <Animator animation={MoveIn(10, 0)}>
-                  Nice to meet you 🙋🏻‍♀️
-                </Animator>
-                - I'm Dante Chun -
-                <Animator animation={MoveOut(10, 0)}>Good bye ✋🏻</Animator>
-                <Animator animation={MoveOut(-10, 0)}>See you 💛</Animator>
+              <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
+                <Animator>Cześć 👋🏻</Animator>
+                <Animator>Jestem Sylwia 🙋🏻‍♀️</Animator>
+                <Animator>Miło Cię poznać ✋🏻</Animator>
+                <Animator>Chętnie z Tobą poraozmawiam 💛</Animator>
               </span>
             </div>
           </ScrollPage>

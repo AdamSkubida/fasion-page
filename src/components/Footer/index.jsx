@@ -32,7 +32,7 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
-        <p>SiWear fasion company &copy;</p>
+        <p>Pogadajmy &copy;</p>
       </div>
     </>
   );
