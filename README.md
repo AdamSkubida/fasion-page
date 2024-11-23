@@ -1,5 +1,23 @@
-It is fasion webpage bulid in <b>React</b>
 
-<h2>Librarys used:</h2>
-<b>React-router</b> -> for Routes and Links </br>
-<b>classnames</b> -> for dynamic classes
+# FasionPage
+
+It is fashion designer advertising website.
+
+
+## Features
+
+- mobile-first aproach
+- interactive elements
+- socialmedia links
+
+
+## Tech Stack
+
+- #### React-router -> for Routes and Links
+- #### classnames -> for dynamic classes
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at adasiow.s@gmail.com
+
