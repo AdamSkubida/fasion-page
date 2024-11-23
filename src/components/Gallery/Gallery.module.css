@@ -1,4 +1,4 @@
-.gallery {
+.hero {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -10,32 +10,7 @@
   max-width: 1280px;
 }
 
-.img-wrapper {
-  border-radius: 10px;
-  background-color: #f2efc7;
-  padding-bottom: 10px;
-}
-
-img {
-  max-width: 400px;
-  max-height: 300px;
-  border-radius: 10px;
-  flex-basis: calc((100% - 60px) / 3);
-  transform: scale(1);
-  transition: 200ms;
-}
-
-img:hover,
-img:focus {
-  cursor: pointer;
-  transform: scale(1.02);
-  transition: 200ms;
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-}
-
-.price {
-  font-family: "Noto Sans Lisu", sans-serif;
-  font-weight: 700;
-  margin-left: 20px;
+h2 {
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
 }

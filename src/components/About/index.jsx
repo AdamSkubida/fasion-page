@@ -1,11 +1,10 @@
 import css from "./About.module.css";
-import portrait from "/portrait.jpg";
 
 export const About = () => {
   return (
     <div className={css.wrapper}>
       <div className={css.photo}>
-        <img src={portrait} alt="my portrait" className={css.portrait} />
+        <img alt="my portrait" className={css.portrait} />
       </div>
       <div className={css.dsc}>
         Mam na imię <b>Sylwia</b>, i modę kocham z całego serca. To dla mnie
