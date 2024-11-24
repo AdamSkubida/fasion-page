@@ -21,8 +21,15 @@ export const Gallery = () => {
       <div className={css.hero}>
         <ScrollContainer className={css["scroll-container"]}>
           <ScrollPage className={css["scroll-page"]}>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -400))}>
-              <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
+            <Animator
+              animation={batch(
+                Fade(),
+                Sticky(),
+                Move(-500, -100),
+                MoveOut(0, -400)
+              )}
+            >
+              <span style={{ fontSize: "40px", fontFamily: "Lexend" }}>
                 Anonimowe rozmowy na każdy temat – dostępne 24/7. Rozmawiaj bez
                 presji, bez oceniania 😀
               </span>
@@ -53,10 +60,12 @@ export const Gallery = () => {
               }}
             >
               <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
-                <Animator>Cześć 👋🏻</Animator>
-                <Animator>Jestem Sylwia 🙋🏻‍♀️</Animator>
-                <Animator>Miło Cię poznać ✋🏻</Animator>
-                <Animator>Chętnie z Tobą poraozmawiam 💛</Animator>
+                <Animator animation={FadeUp}>
+                  <p>Cześć 👋🏻</p>
+                  <p>Jestem Sylwia 🙋🏻‍♀️</p>
+                  <p>Miło Cię poznać ✋🏻</p>
+                  <p>Chętnie z Tobą poraozmawiam 💛</p>
+                </Animator>
               </span>
             </div>
           </ScrollPage>
