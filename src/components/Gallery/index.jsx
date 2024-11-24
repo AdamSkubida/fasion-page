@@ -13,15 +13,15 @@ import {
 import css from "./Gallery.module.css";
 
 // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-const FadeUp = batch(Fade(), Move(), Sticky());
+const FadeUp = batch(Fade(), MoveOut(0, -400), Sticky());
 
 export const Gallery = () => {
   return (
     <>
       <div className={css.hero}>
-        <ScrollContainer>
+        <ScrollContainer className={css["scroll-container"]}>
           <ScrollPage className={css["scroll-page"]}>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -400))}>
               <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
                 Anonimowe rozmowy na każdy temat – dostępne 24/7. Rozmawiaj bez
                 presji, bez oceniania 😀
