@@ -14,7 +14,7 @@ You can purchase an anonymous phone call and talk with us about anything — pro
 - Active payments
 
 
-Tech Stack
+##Tech Stack
 
 
 - ### Vite -> Used for a fast and easy development process
