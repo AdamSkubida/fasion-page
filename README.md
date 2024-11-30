@@ -1,7 +1,7 @@
 # Let's Talk
 
   Business Project
-Let's Talk lets people call us and feel better.
+Let's Talk lets people call us and feel better. </br>
 You can purchase an anonymous phone call and talk with us about anything — problems, a bad mood, questions, etc.
 
 ## Features
