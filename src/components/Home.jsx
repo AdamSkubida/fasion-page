@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 import { Modal } from "./Modal";
 import { SocialMedia } from "./SocialMedia";
 import { PricingTable } from "./PricingTable";
-import { Advert } from "./Advert";
+// import { Advert } from "./Advert";
 
 const Home = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -27,16 +27,16 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const closeAdHandler = () => {
-    setAdOpen(false);
-  };
+  // const closeAdHandler = () => {
+  //   setAdOpen(false);
+  // };
 
   return (
     <>
       <Header onClick={openModalHandler} />
       {modalOpen && <Modal onClose={closeModalHandle} />}
       <SocialMedia />
-      {adOpen && <Advert onClose={closeAdHandler} />}
+      {/* {adOpen && <Advert onClose={closeAdHandler} />} */}
       <Gallery />
       <PricingTable />
       <Footer />

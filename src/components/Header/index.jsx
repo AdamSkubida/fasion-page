@@ -13,7 +13,7 @@ export const Header = ({ onClick }) => {
                 <Link to="/">Home</Link>
               </li>
               <li className={css["list-item"]}>
-                <Link to="/Me">Me</Link>
+                <Link to="/Me">O nas</Link>
               </li>
             </ul>
           </nav>

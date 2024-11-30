@@ -23,6 +23,7 @@ export const Gallery = () => {
           <ScrollPage className={css["scroll-page"]}>
             <Animator
               animation={batch(
+                Move(0, 1000),
                 Fade(),
                 Sticky(),
                 Move(-500, -100),
@@ -51,14 +52,7 @@ export const Gallery = () => {
             </Animator>
           </ScrollPage>
           <ScrollPage className={css["scroll-page"]}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "100%",
-              }}
-            >
+            <div>
               <span style={{ fontSize: "30px", fontFamily: "Lexend" }}>
                 <Animator animation={FadeUp}>
                   <p>Cześć 👋🏻</p>
