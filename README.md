@@ -1,27 +1,28 @@
-
 # Let's Talk
 
-  Buisness project. Let's Talk let people call us and fell better. 
-You can buy an anonymous phone call and talk with us about anything - problems, bad mood, questions etc.
-
+  Business Project
+Let's Talk lets people call us and feel better.
+You can purchase an anonymous phone call and talk with us about anything — problems, a bad mood, questions, etc.
 
 ## Features
 
-- mobile-first aproach
-- cool scrolling animations
-- interactive elements
-- burger menu
-- designed socialmedia links
-- activ payments
+- Mobile-first approach
+- Cool scrolling animations
+- Interactive elements
+- Burger menu
+- Designed social media links
+- Active payments
 
-## Tech Stack
 
-- #### React-router -> for Routes and Links
-- #### Stripe -> makes payment safe and posiblle
-- #### classnames -> for dynamic classes
+Tech Stack
+
+
+- ### Vite -> Used for a fast and easy development process
+- ### React Router -> For routing and navigation
+- ### Stripe -> Ensures secure and possible payments
+- ### classnames -> For dynamic class management
 
 
 ## Feedback
 
 If you have any feedback, please reach out to me at adasiow.s@gmail.com
-
