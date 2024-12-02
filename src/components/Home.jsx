@@ -5,6 +5,7 @@ import { Main } from "./Main";
 import { Footer } from "./Footer";
 import { Modal } from "./Modal";
 import { SocialMedia } from "./SocialMedia";
+import { Advert } from "./Advert";
 import { PricingTable } from "./PricingTable";
 
 const Home = () => {
@@ -25,7 +26,8 @@ const Home = () => {
       <SocialMedia />
       <Hero />
       <Main />
-      <PricingTable />
+      <Advert />
+      {/* <PricingTable /> */}
       <Footer />
     </>
   );

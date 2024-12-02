@@ -1,0 +1,38 @@
+.advert {
+  max-width: 1280px;
+  margin: 50px auto;
+  padding: 50px 20px;
+  background: linear-gradient(180deg, #0091ad77, #00669c70, #0071c270);
+  border-radius: 5px;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.sentence {
+  font-family: "Lexend", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  transition: 200ms box-shadow ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
