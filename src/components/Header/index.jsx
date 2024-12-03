@@ -15,6 +15,9 @@ export const Header = ({ onClick }) => {
               <li className={css["list-item"]}>
                 <Link to="/Me">O nas</Link>
               </li>
+              <li className={css["list-item"]}>
+                <Link to="/Offer">Oferta</Link>
+              </li>
             </ul>
           </nav>
           <div className={css.logo}>

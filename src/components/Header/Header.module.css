@@ -36,7 +36,13 @@
   font-weight: 400;
 }
 
-@media (max-width: 570px) {
+@media (max-width: 855px) {
+  .list {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 647px) {
   .nav {
     display: none;
   }
@@ -52,7 +58,7 @@
   transition: color 0.25s;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 855px) {
   .contact {
     display: none;
   }
@@ -98,7 +104,7 @@
   padding-top: 5px;
 }
 
-@media (min-width: 571px) {
+@media (min-width: 648px) {
   .open-button {
     display: none;
   }
