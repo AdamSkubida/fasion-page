@@ -1,7 +1,6 @@
 .wrapper {
   max-width: 1280px;
-  margin: auto;
-  margin-top: 60px;
+  margin: 60px auto 10px auto;
 }
 
 .social {
