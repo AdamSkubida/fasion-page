@@ -17,6 +17,9 @@ export const Modal = ({ onClose }) => {
             <li className={css["list-item"]}>
               <Link to="/Me">O nas</Link>
             </li>
+            <li className={css["list-item"]}>
+              <Link to="/Offer">Oferta</Link>
+            </li>
           </ul>
         </div>
       </div>

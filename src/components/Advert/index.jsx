@@ -1,4 +1,5 @@
 import css from "./Advert.module.css";
+import { Link } from "react-router-dom";
 
 export const Advert = () => {
   return (
@@ -9,7 +10,9 @@ export const Advert = () => {
             JEŚLI SIĘ ZASTANAWIASZ TO ZNACZY, ŻE POWINIENEŚ DAĆ SOBIE SZANSĘ I
             ZADZWONIĆ
           </div>
-          <button className={css.btn}>Umów rozmowę</button>
+          <Link to="/Offer" className={css.btn}>
+            Umów rozmowę
+          </Link>
         </div>
       </div>
     </>
