@@ -6,8 +6,8 @@ export const Advert = () => {
       <div className={css.advert}>
         <div className={css.wrapper}>
           <div className={css.sentence}>
-            Jesli się zastanawiasz to znaczy, że powinieneś dać sobie szanse i
-            zadzwonić
+            JEŚLI SIĘ ZASTANAWIASZ TO ZNACZY, ŻE POWINIENEŚ DAĆ SOBIE SZANSĘ I
+            ZADZWONIĆ
           </div>
           <button className={css.btn}>Umów rozmowę</button>
         </div>

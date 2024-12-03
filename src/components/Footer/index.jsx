@@ -8,31 +8,33 @@ export const Footer = () => {
   return (
     <>
       <div className={css.footer}>
-        <div className={css["contact-wrapper"]}>
-          <div className={css.social}>
-            <Link to="https://www.instagram.com/">
-              <p className={css["social-icon"]}>
-                <SlSocialInstagram />
-              </p>
-            </Link>
-            <Link to="https://www.facebook.com/">
-              <p className={css["social-icon"]}>
-                <SlSocialFacebook />
-              </p>
-            </Link>
-            <Link to="mailto:siwear@gmail.com">
-              <p className={css["social-icon"]}>
-                <MdMailOutline />
-              </p>
-            </Link>
+        <div className={css.wrapper}>
+          <div className={css["contact-wrapper"]}>
+            <div className={css.social}>
+              <Link to="https://www.instagram.com/">
+                <p className={css["social-icon"]}>
+                  <SlSocialInstagram />
+                </p>
+              </Link>
+              <Link to="https://www.facebook.com/">
+                <p className={css["social-icon"]}>
+                  <SlSocialFacebook />
+                </p>
+              </Link>
+              <Link to="mailto:siwear@gmail.com">
+                <p className={css["social-icon"]}>
+                  <MdMailOutline />
+                </p>
+              </Link>
+            </div>
+            <div>
+              <Link to="tel:123-456-789">
+                <p className={css.phone}>+48 123 456 789</p>
+              </Link>
+            </div>
           </div>
-          <div>
-            <Link to="tel:123-456-789">
-              <p className={css.phone}>+48 123 456 789</p>
-            </Link>
-          </div>
+          <p>Pogadajmy &copy;</p>
         </div>
-        <p>Pogadajmy &copy;</p>
       </div>
     </>
   );
